@@ -9,7 +9,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
 }
 .square:hover {
   background: #f0f0f0;

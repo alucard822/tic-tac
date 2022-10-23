@@ -21,16 +21,17 @@ const Game = () => {
       }
   
       const startNewGame = () => {
-        return 
+        return (
             <button className="start__btn" onClick={() => setBoard(Array(9).fill(null))}> Очистить поле </button> 
-      }
+        )
+          }
 
   
    return (
     <div className="wrapper">
         { startNewGame() }
         <Board squares={board} click={handleClick} />
-    <p>
+    <p className='game__info'>
       { winner ? 'Победитель ' + winner : 'Сейчас ходит ' + ( xIsNext ? 'x' : '0')}
     </p>
     </div>

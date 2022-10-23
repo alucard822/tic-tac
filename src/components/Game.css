@@ -22,3 +22,8 @@
   color: #222222;
   transition: .3s all ease;
 }
+.game__info {
+  margin-top: 25px;
+  font-size: 36 px;
+  color: white;
+}
