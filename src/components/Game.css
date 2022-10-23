@@ -17,13 +17,13 @@
   background: #222222;
   border: 1px solid white;
 }
-.start__btn:haver {
+.start__btn:hover {
   background:  #fff;
   color: #222222;
   transition: .3s all ease;
 }
 .game__info {
   margin-top: 25px;
-  font-size: 36 px;
+  font-size: 36px;
   color: white;
 }
